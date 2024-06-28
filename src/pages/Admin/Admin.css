@@ -1,0 +1,27 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    max-width: 300px;
+    width: 100%;
+    padding: 20px 50px;
+    height: 200px;
+    box-shadow: 1px 1px 8px 1px rgb(208, 208, 208);
+    border-radius: 8px;
+}
+.card h5 p{
+    text-align: center;
+}
